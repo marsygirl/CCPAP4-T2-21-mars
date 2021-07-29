@@ -4,47 +4,67 @@
 
 
 body {
-    background-color:coral;
 
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 img{
-    max-width: 100%;
+    max-width: 50%;
 }
 
-.layout-wide{
-    background-color: crimson;
-    max-width: 1200px;
 
-    padding: 50px;
+
+/*layouts*/
+.layout-wide{
+
+   
+    max-width: 1500px;
+    padding: 40px;
     margin-left: auto;
     margin-right: auto;
+
+
 
 }
 
 /* headings and typeograpahy */
 
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+
+
 /* header */
+header .layout-wide {
+    display: grid;
+    grid-template-columns: 300px auto;
+    background-color: rgb(6, 6, 92);
+}
+
 
 /* navigation */
 
 /* footer */
 
 /* modules */
-.content-box {
-    background-color:cornsilk;
-    padding: 30px;
 
-}
+@media screen and (min-width: 1500px)  {
 
-@media screen and (min-width: 600px) {
 
     .news-component {
         display: grid; 
         grid-template-columns: 1fr 1fr;
 
+        
 }
 
 }
+
+
