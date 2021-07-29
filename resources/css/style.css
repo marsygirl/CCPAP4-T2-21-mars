@@ -52,11 +52,17 @@ a:visited {
 header .layout-wide {
     display: grid;
     grid-template-columns: 300px auto;
-    background-color: rgb(09,31,64)
+    background-color: rgb(09,31,64);
+    
 
 }
+ .header-detail {
+    color: white;
+    font-size:x-large;
 
+ }
 
+  
 
 /* navigation */
 
