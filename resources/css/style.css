@@ -10,6 +10,7 @@ body {
 
 
     font-family: 'Pathway Gothic One', sans-serif;
+    text-align: center;
 
 }
 
@@ -27,7 +28,7 @@ video {
 
    
     max-width: 1500px;
-    padding: 40px;
+    padding: 30px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -43,12 +44,13 @@ h4,
 h5 {
     color: maroon;
     font-family: 'Secular One', sans-serif;
-  
+    
 
 }
 
 h1 {
-font-size: 35px;
+font-size: 50px;
+text-align: center;
 }
 style>
 a:link {
@@ -61,12 +63,19 @@ a:visited {
   font-family:'Cantarell', sans-serif;
 
 }
- 
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+}
+
+
+
 
 /* header */
 header .layout-wide {
     display: grid;
-    grid-template-columns: 300px auto;
+    grid-template-columns: 500px auto;
     background-color: rgb(09,31,64);
     
 
@@ -74,8 +83,14 @@ header .layout-wide {
  .header-detail {
     color: white;
     font-size:x-large;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+
+ 
 
  }
+
 
   
 
@@ -103,3 +118,14 @@ header .layout-wide {
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
+
+      
+          
+      @media screen and (min-width:400px) {
+          .header {
+            display:grid;
+            
+          }
+      }
+
+  
