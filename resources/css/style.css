@@ -12,8 +12,10 @@ body {
     font-family: 'Pathway Gothic One', sans-serif;
     text-align: center;
     max-width: 100%;
+  
 
 }
+
 
 img{
     max-width: 100%;
@@ -24,10 +26,11 @@ video {
     max-width: 100%;
 }
 
+
+
 /*layouts*/
 .layout-wide{
 
-   
     max-width: 1500px;
     padding: 30px;
     margin-left: auto;
