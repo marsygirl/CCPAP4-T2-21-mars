@@ -1,4 +1,7 @@
 @import url( "normalize.css");
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cantarell:ital@1&family=Pathway+Gothic+One&family=Secular+One&display=swap');
+
 
 /*global defults*/
 
@@ -6,7 +9,8 @@
 body {
 
 
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family: 'Pathway Gothic One', sans-serif;
+
 }
 
 img{
@@ -38,9 +42,14 @@ h3,
 h4,
 h5 {
     color: maroon;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-family: 'Secular One', sans-serif;
+  
+
 }
 
+h1 {
+font-size: 35px;
+}
 style>
 a:link {
   color: rgb(09,31,64); 
@@ -49,6 +58,8 @@ a:link {
 
 a:visited {
   color: maroon; 
+  font-family:'Cantarell', sans-serif;
+
 }
  
 
